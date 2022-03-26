@@ -1,0 +1,30 @@
+.app {
+  min-height: 100vh;
+  padding: 0 8px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+
+  min-height: 100vh;
+  padding: 64px 0;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  max-width: 100%;
+}
+
+@media screen and (min-width: 760px) {
+  .app {
+    padding: 0 32px;
+  }
+}

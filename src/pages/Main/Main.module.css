@@ -1,0 +1,46 @@
+.columns {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.placename {
+  font-size: 16px;
+}
+
+.temperature {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  font-size: 24px;
+}
+
+.imagewrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 12px;
+}
+
+@media screen and (min-width: 760px) {
+  .temperature {
+    font-size: 48px;
+  }
+
+  .placename {
+    font-size: 24px;
+  }
+
+  .imagewrapper {
+    padding: 24px;
+  }
+}

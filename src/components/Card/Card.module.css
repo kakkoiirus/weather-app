@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-flow: row nowrap;
+
+  max-width: 800px;
+  min-height: 200px;
+  margin: 16px;
+  padding: 32px;
+
+  transition: color 0.15s ease;
+  text-align: left;
+  text-decoration: none;
+
+  color: inherit;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+@media screen and (min-width: 760px) {
+  .card {
+    padding: 32px;
+  }
+}
